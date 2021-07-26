@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply uppercase font-semibold px-6 py-2 border;
+  }
+  .card-heading {
+    @apply font-heading text-3xl text-dark-violet;
+  }
+  .card-par {
+    @apply text-dark-grayish-violet;
+  }
+  .footer-title {
+    @apply py-6 text-dark-grayish-violet;
+  }
+}
